@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Work ATC 01"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="32sp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Sahyro"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/snackBarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Snackbar"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:id="@+id/alertDialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Aloert Dialog"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:id="@+id/notificationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Notification"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:id="@+id/webviewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Webview"
+        android:layout_marginTop="32dp"/>
+
+
+</LinearLayout>
